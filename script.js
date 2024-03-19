@@ -19,10 +19,8 @@ function addNewAQField() {
     newNode.classList.add("mt-2");
     newNode.setAttribute("rows", 3);
     newNode.setAttribute("placeholder", "Enter here");
-    
     let aqOb = document.getElementById("aq");
     let aqAddButtonOb = document.getElementById("aqAddButton");
-    
     aqOb.insertBefore(newNode, aqAddButtonOb);
 
 }
